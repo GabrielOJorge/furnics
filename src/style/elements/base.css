@@ -1,0 +1,73 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--color-cultured);
+  height: 100vh;
+}
+
+#root {
+  width: min(90%, 1540px);
+}
+
+h1, a {
+  color: var(--color-smoky-black);
+}
+
+h1, h2, h3 {
+  font-family: var(--font-cinzel);
+  text-transform: capitalize;
+}
+
+p, a  {
+  font-family: var(--font-poppins);
+}
+
+p {
+  font-weight: 300;
+  font-size: clamp(0.75rem, 0.7073rem + 0.2439vw, 1rem);
+  line-height: 180%;
+}
+
+a {
+  font-size: clamp(0.875rem, 0.8194rem + 0.3175vw, 1.125rem);
+  text-decoration: none;
+  transition: color .3s ease;
+  cursor: pointer;
+}
+
+a:hover {
+  color: var(--color-camouflage-green);
+}
+
+li a {
+  text-transform: uppercase;
+}
+
+button {
+  font-family: var(--font-poppins);
+  font-size: clamp(0.875rem, 0.8537rem + 0.122vw, 1rem);
+  font-weight: 500;
+  text-transform: uppercase;
+  background: none;
+  border-style: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+iconify-icon {
+  color: var(--color-smoky-black);
+  font-size: clamp(1.125rem, 1.0694rem + 0.3175vw, 1.375rem);
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}

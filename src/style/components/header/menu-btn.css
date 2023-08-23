@@ -1,0 +1,27 @@
+.menu-btn {
+  position: fixed;
+  top: 40px;
+  right: 5%;
+}
+
+.menu-btn iconify-icon {
+  font-size: clamp(1.5rem, 1.325rem + 1vw, 2rem);
+}
+
+.menu-btn iconify-icon:first-child, .menu-btn iconify-icon:last-child {
+  display: none;
+}
+
+@media (max-width: 1080px) {
+  .menu-btn iconify-icon:first-child {
+    display: initial;
+  }
+
+  .menu-btn.active iconify-icon:first-child {
+    display: none;
+  }
+
+  .menu-btn.active iconify-icon:last-child {
+    display: initial;
+  }
+}

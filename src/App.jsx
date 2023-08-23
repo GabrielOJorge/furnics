@@ -1,5 +1,13 @@
+import { MainHeader } from './components/MainHeader/MainHeader';
+import { HeroSection } from './components/HeroSection';
+
 function App() {
-  return <></>;
+  return (
+    <>
+      <MainHeader />
+      <HeroSection />
+    </>
+  );
 }
 
 export default App;
