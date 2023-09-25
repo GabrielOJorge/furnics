@@ -1,0 +1,42 @@
+.CTA-btn {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+
+  background: var(--color-cultured);
+  color: var(--color-smoky-black);
+  border: 2px solid var(--color-philippine-silver);
+  padding: clamp(1rem, 0.9573rem + 0.2439vw, 1.25rem) clamp(2.25rem, 2.122rem + 0.7317vw, 3rem);
+  text-align: center;
+  letter-spacing: 1.28px;
+  transition: all .3s ease;
+}
+
+.CTA-btn:hover {
+  background: var(--color-camouflage-green);
+  color: var(--color-cultured);
+  border-color: transparent;
+}
+
+.CTA-btn:hover iconify-icon {
+  animation: 1s slidein infinite;
+  color: var(--color-cultured);
+}
+
+.CTA-btn iconify-icon {
+  color: var(--color-smoky-black);
+}
+
+@keyframes slidein {
+  0% {
+    transform: translateX(0);
+  }
+
+  50% {
+    transform: translateX(3px);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}

@@ -1,13 +1,13 @@
 import { MenuBtn } from './MenuBtn';
 import { NavLinks } from './NavLinks';
-import { NavBtns } from './NavBtn';
+import { NavBtn } from './NavBtn';
 
 export function HeaderNav() {
   return (
     <nav className="header-menu">
       <MenuBtn />
       <NavLinks />
-      <NavBtns />
+      <NavBtn />
     </nav>
   );
 }

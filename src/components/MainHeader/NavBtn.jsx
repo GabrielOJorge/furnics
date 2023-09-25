@@ -1,4 +1,4 @@
-export function NavBtns() {
+export function NavBtn() {
   return (
     <div>
       <button>

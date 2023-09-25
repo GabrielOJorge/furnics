@@ -19,6 +19,10 @@ h1, h2, h3 {
   text-transform: capitalize;
 }
 
+h3 {
+  font-size: clamp(0.875rem, 0.7683rem + 0.6098vw, 1.5rem);
+}
+
 p, a  {
   font-family: var(--font-poppins);
 }
@@ -58,6 +62,10 @@ button {
 iconify-icon {
   color: var(--color-smoky-black);
   font-size: clamp(1.125rem, 1.0694rem + 0.3175vw, 1.375rem);
+}
+
+input {
+  appearance: none;
 }
 
 .sr-only {
