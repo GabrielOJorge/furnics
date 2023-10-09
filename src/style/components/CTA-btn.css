@@ -3,7 +3,7 @@
   align-items: center;
   gap: 4px;
 
-  background: var(--color-cultured);
+  background: transparent;
   color: var(--color-smoky-black);
   border: 2px solid var(--color-philippine-silver);
   padding: clamp(1rem, 0.9573rem + 0.2439vw, 1.25rem) clamp(2.25rem, 2.122rem + 0.7317vw, 3rem);

@@ -8,7 +8,7 @@
   align-items: center;
   background: var(--color-cultured);
   padding: 28px 0;
-  margin-bottom: 80px;
+  margin-bottom: clamp(3rem, 2.6585rem + 1.9512vw, 5rem);
 }
 
 .main-header > div {

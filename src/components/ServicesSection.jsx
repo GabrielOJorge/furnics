@@ -2,7 +2,7 @@ import '../style/components/services-section.css';
 
 export function ServicesSection() {
   return (
-    <div className="services-section">
+    <section className="services-section">
       <div>
         <iconify-icon icon="la:shipping-fast"></iconify-icon>
         <h3>
@@ -35,6 +35,6 @@ export function ServicesSection() {
           refund policy
         </h3>
       </div>
-    </div>
+    </section>
   );
 }

@@ -7,7 +7,3 @@
   height: 682px;
   margin-bottom: 176px;
 }
-
-.hero-section h1 {
-  font-size: clamp(3rem, 2.1111rem + 5.0794vw, 7rem);
-}
