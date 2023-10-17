@@ -4,6 +4,7 @@ import { Pagination } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
+import './style/product-slider.css';
 
 import { Slide } from './Slide';
 

@@ -1,4 +1,4 @@
-import { CTABtn } from '../CTABtn';
+import { CTABtn } from '../../CTABtn/CTABtn';
 
 // eslint-disable-next-line react/prop-types
 export function Slide({ title, description, classN }) {
@@ -8,7 +8,7 @@ export function Slide({ title, description, classN }) {
 
       <p>{description}</p>
 
-      <CTABtn text={'shop now'} />
+      <CTABtn text="shop now" variation="" />
     </div>
   );
 }

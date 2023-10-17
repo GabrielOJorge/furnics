@@ -1,4 +1,4 @@
-import '../style/components/services-section.css';
+import './services-section.css';
 
 export function ServicesSection() {
   return (

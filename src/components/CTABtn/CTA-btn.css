@@ -12,10 +12,24 @@
   transition: all .3s ease;
 }
 
+.CTA-btn.borderless {
+  border: none;
+  padding: 0;
+}
+
 .CTA-btn:hover {
   background: var(--color-camouflage-green);
   color: var(--color-cultured);
   border-color: transparent;
+}
+
+.CTA-btn.borderless:hover {
+  background: none;
+  color: var(--color-smoky-black);
+}
+
+.CTA-btn iconify-icon {
+  color: var(--color-smoky-black);
 }
 
 .CTA-btn:hover iconify-icon {
@@ -23,7 +37,8 @@
   color: var(--color-cultured);
 }
 
-.CTA-btn iconify-icon {
+.CTA-btn.borderless:hover iconify-icon {
+  animation: 1s slidein infinite;
   color: var(--color-smoky-black);
 }
 

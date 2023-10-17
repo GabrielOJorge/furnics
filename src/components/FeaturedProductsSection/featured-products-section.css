@@ -1,0 +1,14 @@
+.featured-products-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.featured-products-section > div:first-child {
+  display: flex;
+  justify-content: space-between;
+}
+
+.featured-products-slider {
+  display: flex;
+  height: 600px;
+}

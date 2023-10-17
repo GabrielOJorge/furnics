@@ -1,7 +1,12 @@
-import { MainHeader } from './components/MainHeader/MainHeader';
-import { HeroSection } from './components/HeroSection';
-import { ServicesSection } from './components/ServicesSection';
-import { AboutSection } from './components/AboutSection/AboutSection';
+import {
+  MainHeader,
+  HeroSection,
+  ServicesSection,
+  AboutSection,
+  FeaturedProductsSection,
+} from './components';
+
+import './style';
 
 function App() {
   return (
@@ -10,6 +15,7 @@ function App() {
       <HeroSection />
       <ServicesSection />
       <AboutSection />
+      <FeaturedProductsSection />
     </>
   );
 }

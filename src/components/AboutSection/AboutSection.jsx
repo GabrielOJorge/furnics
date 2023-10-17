@@ -1,18 +1,11 @@
-import '../../style/components/about-section.css';
-import { CTABtn } from '../CTABtn';
+import { CTABtn } from '../CTABtn/CTABtn';
+import './about-section.css';
 
 export const AboutSection = () => {
   return (
     <section id="about" className="about-section">
       <div>
-        {/* <video
-          src="src/assets/video.mp4"
-          // width={760}
-          autoPlay
-          controls
-        ></video> */}
         <img src="src/assets/images/slide-image3.png" alt="" />
-        {/* <iconify-icon icon="ion:play-sharp"></iconify-icon> */}
       </div>
 
       <div>
@@ -31,7 +24,7 @@ export const AboutSection = () => {
           viverra venenatis integer fringilla.
         </p>
 
-        <CTABtn text={'about us'} />
+        <CTABtn text="about us" variation="" />
       </div>
     </section>
   );

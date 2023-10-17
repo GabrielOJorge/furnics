@@ -1,12 +1,14 @@
 import { FurnicsLogo } from '../FurnicsLogo';
-import { HeaderNav } from './HeaderNav';
+import { NavBar } from './components';
+
+import './main-header.css';
 
 export function MainHeader() {
   return (
     <header className="main-header">
       <div>
         <FurnicsLogo />
-        <HeaderNav />
+        <NavBar />
       </div>
     </header>
   );
