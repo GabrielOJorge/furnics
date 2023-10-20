@@ -5,35 +5,35 @@ export function ServicesSection() {
     <section className="services-section">
       <div>
         <iconify-icon icon="la:shipping-fast"></iconify-icon>
-        <h3>
+        <h4>
           quick
           <br />
           delivery
-        </h3>
+        </h4>
       </div>
       <div>
         <iconify-icon icon="la:shopping-cart"></iconify-icon>
-        <h3>
+        <h4>
           pick up in
           <br />
           store
-        </h3>
+        </h4>
       </div>
       <div>
         <iconify-icon icon="la:gift"></iconify-icon>
-        <h3>
+        <h4>
           special
           <br />
           packaging
-        </h3>
+        </h4>
       </div>
       <div>
         <iconify-icon icon="la:redo-alt"></iconify-icon>
-        <h3>
+        <h4>
           return &
           <br />
           refund policy
-        </h3>
+        </h4>
       </div>
     </section>
   );

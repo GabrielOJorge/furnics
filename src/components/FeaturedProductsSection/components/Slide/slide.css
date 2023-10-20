@@ -1,0 +1,9 @@
+.featured-products-slider .slide > div {
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.featured-products-slider .slide button {
+  margin-top: 2px;
+  color: var(--color-camouflage-green);
+}

@@ -14,7 +14,7 @@ h1, a {
   color: var(--color-smoky-black);
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
   font-family: var(--font-cinzel);
   text-transform: capitalize;
 }
@@ -28,6 +28,10 @@ h2 {
 }
 
 h3 {
+  font-size: clamp(1.25rem, 1.1646rem + 0.4878vw, 1.75rem);
+}
+
+h4 {
   font-size: clamp(0.875rem, 0.7683rem + 0.6098vw, 1.5rem);
 }
 
@@ -74,6 +78,30 @@ iconify-icon {
 
 input {
   appearance: none;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+  --swiper-pagination-color: var(--color-camouflage-green);
+  --swiper-pagination-size: 12px;
+  --swiper-pagination-bullet-inactive-color: var(--color-philippine-silver);
+  --swiper-pagination-bullet-inactive-opacity: 1;
+  --swiper-pagination-bullet-width: 12px;
+  --swiper-pagination-bullet-height: 12px;
+  --swiper-pagination-bullet-horizontal-gap: 24px;
+}
+
+.swiper-pagination-bullet-active::after {
+  content: '';
+  display: flex;
+  justify-content: center;
+  border: 2px solid var(--color-camouflage-green);
+  border-radius: 50%;
+  padding: 12px;
+  position: relative;
+  top: -8px;
+  left: -8px;
 }
 
 .sr-only {

@@ -1,7 +1,7 @@
 import './menu-btn.css';
 
 const handleMenuBtnClick = () => {
-  const headerMenu = document.querySelector('.header-menu');
+  const headerMenu = document.querySelector('.nav-bar');
   const menuBtn = document.querySelector('.menu-btn');
 
   headerMenu.classList.toggle('active');

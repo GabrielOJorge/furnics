@@ -18,8 +18,6 @@ export function ProductSlider() {
         clickable: true,
       }}
       modules={[Pagination]}
-      onSlideChange={() => console.log('slide change')}
-      onSwiper={(swiper) => console.log(swiper)}
     >
       <SwiperSlide>
         <Slide

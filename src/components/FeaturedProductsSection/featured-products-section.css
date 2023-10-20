@@ -6,9 +6,6 @@
 .featured-products-section > div:first-child {
   display: flex;
   justify-content: space-between;
-}
-
-.featured-products-slider {
-  display: flex;
-  height: 600px;
+  flex-wrap: wrap;
+  gap: 20px;
 }
